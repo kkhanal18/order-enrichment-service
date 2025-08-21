@@ -25,6 +25,17 @@
 
 The application will be accessible at `http://localhost:8080`.
 
+## Example Request
+
+When creating an order, the request body should look like this:
+
+```json
+{
+  "orderId": 10,
+  "customerId": 1,
+  "productIds": 1,
+  "timestamp": "2025-08-20T12:00:00Z"
+}
 ## Running Tests
 
 To run all unit tests:
