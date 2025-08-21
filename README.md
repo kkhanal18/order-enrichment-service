@@ -36,6 +36,7 @@ When creating an order, the request body should look like this:
   "productIds": 1,
   "timestamp": "2025-08-20T12:00:00Z"
 }
+```
 ## Running Tests
 
 To run all unit tests:
